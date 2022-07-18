@@ -1,0 +1,127 @@
+    /*Reset*/
+    *{
+    padding: 0;
+        box-sizing: 0;
+        margin: 0;
+    }
+
+    /*index*/
+    body {
+        color: #c1c1c1;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #222;
+    
+    }
+
+    .back-grad-linear {
+        background: linear-gradient(#22222294, #222), url(img/desenvolvedor-front-end.jpg) top no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(1px);
+        width: 100vw;  /*100% largura usuario*/
+        height: 100vh;
+        opacity: 0,5;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 16px;
+    }
+
+    a {
+        color: #8f8f8f;
+        text-decoration: none;
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #8123b1;
+    }
+
+    
+    .center {
+        text-align: center;
+    }
+
+    h1 {
+        color: #8f8f8f;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+        padding: 20px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer a {
+        margin: 20px;
+        text-align: center;
+    }
+
+    footer p {
+        margin-top: 2px;
+    }
+
+    .container {
+        padding: 0px 50px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    nav a:hover {
+        color: #bc37ff;
+    }
+
+    .contact-form input{
+        width: 100%;
+        padding: 8px 0;
+        margin: 8px 0;
+    }
+
+    .contact-form input[type=text] {
+        height: 100px;
+    }
+
+    button {
+        color: black;
+        background-color: #8f8f8f;
+        border: none;
+        width: 100px;
+        height: 30px;
+    }
+
+    /*About*/
+
+    .body-about {
+        padding-top: 20px;
+    }
+
+    p h3 {
+        line-height: 20px;
+
+    }
+     section h3 {
+        padding: 10px;
+     }
+    section p {
+        padding: 10px;
+    }
